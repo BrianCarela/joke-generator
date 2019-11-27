@@ -2,7 +2,7 @@ DROP TABLE IF EXISTS jokes;
 
 CREATE TABLE jokes(
   id SERIAL PRIMARY KEY,
-  text Text NOT NULL
+  text TEXT NOT NULL
 );
 
 INSERT INTO jokes (text) VALUES
